@@ -1,0 +1,26 @@
+body{
+    background-image: url("image.png");
+    background-color: black;
+}
+
+#box {
+    width: 10vw;
+    height: 10vw;
+    min-width: 65px;
+    min-height: 65px;
+    background: linear-gradient(
+45deg
+, blue, red);
+    position: absolute;
+    top: 145px;
+    left: 145px;
+    /* text-align: center; */
+    box-sizing: border-box;
+    /* padding-top: 6vw; */
+    color: white;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
